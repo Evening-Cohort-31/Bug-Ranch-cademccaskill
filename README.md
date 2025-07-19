@@ -76,9 +76,9 @@ Your journey will take you through the wildness of the American Midwest and acro
 ```
 
 1. In the **main** module, one of the first lines of code is `const drovers = hireDrovers(cattleToDrive)`. Explain what the value of the `drovers` variable is when that line of code runs.
-   > Your answer here
+   > Your answer here. When this line of code runs it will contain 5 random objects(first_name, last_name) from data.
 2. At the bottom of the main module, you will see the following code - `for (const drover of drovers)`. Explain what the values of both the `drover` and the `drovers` variables are.
-   > Your answer here
+   > Your answer here. Drover is just the object that the loop is processsing and drovers is the array where the names were stored.
 3. In the **journey** module, there is a `journeyMaker()` function. In that function, there is a variable named `areas` which will have the value of an object. Use your debugger to show what the value of each key is on that object. Use [Loom](https://www.loom.com) to record your session.
    > Your public Loom URL here
 4. Also in the **journey** module, there is the following code:
@@ -88,11 +88,11 @@ Your journey will take you through the wildness of the American Midwest and acro
    }
    ```
    Explain this code with your best vocabulary.
-   > Your answer here
+   > Your answer here So we are using a for loop and in the for loop we have an function using the let var and its name is forestNumber and its value is set to 0. then we are passing an arguement say if forest is less than ares.forest, and we also have it adding 1 to forest. The last thing it is doing is pushing the datat to the journey array.
 5. Explain the value of the `database` variable in the **database** module. Be as comprehensive as possible.
-   > Your answer here
+   > Your answer here. Database is an array that is holding to other arrays called drovers and cattleType both these are object arrays.
 6. In the **drovers** module, there is a `hireDrovers()` function. You will notice the following code on that line - `(herdSize)`. What is that defining, and where does it get its value?
-   > Your answer here
+   > Your answer here. herdSize is a place holder(agument) so whenever the function gets called thats when it gets its value so when it is run the value should be 50.
 
 ## When You Are Done
 
